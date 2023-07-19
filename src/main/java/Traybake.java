@@ -9,10 +9,10 @@ public class Traybake extends Cake {
     }
 
     public int getNumberOfSlices() {
-        return numberOfSlices;
+        return this.numberOfSlices;
     }
 
     public int getMinutesInFridge() {
-        return minutesInFridge;
+        return this.minutesInFridge;
     }
 }

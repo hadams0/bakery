@@ -10,14 +10,14 @@ public class Cake {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public int getCalories() {
-        return calories;
+        return this.calories;
     }
 
     public String getBaseFlavour() {
-        return baseFlavour;
+        return this.baseFlavour;
     }
 }

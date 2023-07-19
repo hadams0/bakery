@@ -12,19 +12,19 @@ public class Bakery {
     }
 
     public void addItemToStock(Cake cake) {
-        stock.add(cake);
+        this.stock.add(cake);
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public ArrayList<Cake> getStock() {
-        return stock;
+        return this.stock;
     }
 
     public double getTillBalance() {
-        return tillBalance;
+        return this.tillBalance;
     }
 }
 

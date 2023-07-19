@@ -9,10 +9,10 @@ public class ChocolateCake extends Cake {
     }
 
     public String getTypeOfChocolate() {
-        return typeOfChocolate;
+        return this.typeOfChocolate;
     }
 
     public int getMinutesInOven() {
-        return minutesInOven;
+        return this.minutesInOven;
     }
 }
